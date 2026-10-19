@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-950: #1A365D;
+  --color-sky-900: #2A4365;
+  --color-indigo-600: #1A365D;
+  --color-indigo-700: #2D3748;
+  --color-indigo-900: #1A365D;
+  --color-indigo-950: #122540;
+  
+  --color-teal-300: #81E6D9;
+  --color-teal-400: #4FD1C5;
+  --color-teal-500: #4FD1C5;
+  
+  --color-amber-400: #F6AD55;
+  --color-amber-500: #ED8936;
+  
+  --color-red-500: #FC8181;
+  --color-red-650: #E53E3E;
+  
+  --color-purple-500: #B794F4;
+  --color-purple-600: #9F7AEA;
+  --color-purple-100: #F3E5F5;
+  --color-purple-50: #FDF4FF;
+  
+  --color-emerald-50: #E6FFFA;
+  --color-emerald-100: #E0F2F1;
+  --color-emerald-600: #00897B;
+  --color-emerald-800: #00695C;
+  
+  --color-slate-50: #F4F7FA;
+  --color-slate-100: #E2E8F0;
+  --color-slate-200: #D1D9E6;
+  
+  --color-light-brand: #E1EFFE;
+  --color-dark-brand: #1E429F;
+}
+
+/* Custom class specifications matching High Density Theme precisely */
+.bg-high-density-split {
+  background: linear-gradient(135deg, #1A365D 0%, #2D3748 100%);
+}
+
+.high-contrast-mode {
+  --color-sky-950: #0A192F;
+  --color-indigo-650: #0A192F;
+  --color-indigo-600: #0A192F;
+  --color-teal-500: #00FFFF;
+  --color-teal-400: #00FFFF;
+}
